@@ -96,6 +96,8 @@ class ContactPage extends React.Component {
 
 ```
 * Potentially set the form values initially, with the `initialValues` prop.
+* Notice the difference in the name of the prop used to pass your submit handler, `onSubmit`, versus the prop
+used inside the redux form component, `handleSubmit`.
 
 If you're starting out with `redux-form`, a good place to continue learning about how to connect
 up the inputs to `redux-form` would be the
